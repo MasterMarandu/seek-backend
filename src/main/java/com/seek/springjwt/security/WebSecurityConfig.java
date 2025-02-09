@@ -76,7 +76,7 @@ public class WebSecurityConfig {
     CorsConfiguration config = new CorsConfiguration();
     config.setAllowCredentials(true);
    config.addAllowedOriginPattern("*"); 
-    //config.addAllowedOrigin("http://24.144.80.86:80");
+    config.addAllowedOrigin("http://24.144.80.86:80");
     config.addAllowedHeader("*");
     config.addAllowedMethod("*");
 
